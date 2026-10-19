@@ -1,0 +1,21 @@
+title: "EventPulse — College Event Feedback Analyzer"
+pitch: "An AI agent that classifies student feedback with the Strands Decider model and surfaces what event organizers need to fix."
+features:
+  - "submit feedback for any event; sentiment classified by the Strands Decider model in one forward pass"
+  - "flags responses that need organizer attention (complaints, broken equipment, safety issues)"
+  - "sentiment breakdown: positive / negative / neutral with confidence"
+  - "top complaints and actionable suggestions per event"
+  - "runs on Amazon Bedrock AgentCore Runtime"
+eager: false
+intro: "EventPulse runs on Amazon Bedrock. Students submit feedback in plain language; the Strands Decider model classifies each response — positive, negative, or neutral — and flags anything the organizer should act on. Organizers then ask for a summary."
+intro_normal: "EventPulse runs on Amazon Bedrock AgentCore Runtime. The Strands Decider model classifies each feedback response and flags issues for organizers."
+turns:
+  - say: "What events have feedback right now?"
+    narrate: "The organizer asks which events have responses to review."
+  - say: "I want to submit feedback for TechFest 2026. The microphone kept cutting out during the keynote and half the audience couldn't hear a thing."
+    narrate: "A student submits a complaint. Watch how the decider classifies it and flags it."
+  - say: "Give me a full summary of the feedback for TechFest 2026."
+    narrate: "The organizer asks for the sentiment breakdown and attention items."
+  - say: "What are the top complaints for Cultural Night 2026?"
+    narrate: "The organizer drills into the negative feedback for a specific event."
+outro: "One forward pass per classification, calibrated probabilities the code can branch on, and Amazon Bedrock for the conversation. Built with the AWS User Group Madurai Strands Decider hackathon kit."

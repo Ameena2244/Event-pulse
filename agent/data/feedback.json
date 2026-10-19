@@ -1,0 +1,33 @@
+{
+  "events": [
+    {"id": "EVT001", "name": "TechFest 2026", "date": "2026-09-15", "organizer": "CSE Department"},
+    {"id": "EVT002", "name": "HackMadurai 2026", "date": "2026-09-28", "organizer": "Student Council"},
+    {"id": "EVT003", "name": "Cultural Night 2026", "date": "2026-10-05", "organizer": "Arts Club"}
+  ],
+  "feedback": [
+    {"id": "F001", "event_id": "EVT001", "text": "The workshops were incredibly well organized. Learned a lot about machine learning!"},
+    {"id": "F002", "event_id": "EVT001", "text": "The microphone kept cutting out during the keynote. Half the audience couldn't hear anything."},
+    {"id": "F003", "event_id": "EVT001", "text": "Registration was smooth and the venue was easy to find."},
+    {"id": "F004", "event_id": "EVT001", "text": "The food stalls ran out of food by 1pm. Totally unacceptable for a full-day event."},
+    {"id": "F005", "event_id": "EVT001", "text": "Speakers were great but the schedule kept slipping. Sessions started 30 minutes late."},
+    {"id": "F006", "event_id": "EVT001", "text": "Amazing experience overall! Would definitely attend next year."},
+    {"id": "F007", "event_id": "EVT001", "text": "The AR/VR demo zone was the highlight. Please add more interactive exhibits next time."},
+    {"id": "F008", "event_id": "EVT001", "text": "The event was okay. Nothing particularly stood out to me."},
+    {"id": "F009", "event_id": "EVT002", "text": "Our team won second place! The problem statement was challenging and relevant to real-world use cases."},
+    {"id": "F010", "event_id": "EVT002", "text": "The internet connection was terrible. We lost almost an hour of hacking time because of connectivity issues."},
+    {"id": "F011", "event_id": "EVT002", "text": "Judging criteria were not communicated clearly upfront. We only found out about the presentation requirement at the end."},
+    {"id": "F012", "event_id": "EVT002", "text": "Mentors were extremely helpful and available throughout the event."},
+    {"id": "F013", "event_id": "EVT002", "text": "The venue was a bit too small for the number of teams. Tables were cramped."},
+    {"id": "F014", "event_id": "EVT002", "text": "Loved the energy! Best hackathon I've attended in college."},
+    {"id": "F015", "event_id": "EVT002", "text": "Prizes were not handed out on the day. Still waiting after two weeks."},
+    {"id": "F016", "event_id": "EVT002", "text": "Food and refreshments were good. Appreciated the midnight snacks."},
+    {"id": "F017", "event_id": "EVT003", "text": "The dance performances were breathtaking. Incredibly talented students!"},
+    {"id": "F018", "event_id": "EVT003", "text": "The stage lighting failed during the classical dance segment. Completely ruined the mood."},
+    {"id": "F019", "event_id": "EVT003", "text": "The event ran 2 hours overtime. Parents and students had transport issues because of this."},
+    {"id": "F020", "event_id": "EVT003", "text": "Seating was insufficient. Many people had to stand for over an hour."},
+    {"id": "F021", "event_id": "EVT003", "text": "The MC kept making inappropriate jokes. This should not happen in a college event."},
+    {"id": "F022", "event_id": "EVT003", "text": "Beautiful decorations and a great atmosphere. Well done to the organizing team!"},
+    {"id": "F023", "event_id": "EVT003", "text": "The sound system was excellent. Every performance was crystal clear."},
+    {"id": "F024", "event_id": "EVT003", "text": "Some performances felt too long and repetitive. Could have trimmed a few acts."}
+  ]
+}
